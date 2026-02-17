@@ -1,0 +1,334 @@
+(footprint "BME280 module"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x06 2.54mm single row")
+	(property "Reference" "J4"
+		(at 3.048 0.254 -90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f9117140-4eb5-4a89-983a-357cb9a5a85f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BME280"
+		(at 5.334 0 -90)
+		(layer "F.SilkS")
+		(uuid "f0f6c0db-6d47-422e-a085-9b15ee89491b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14e43465-99e0-405a-821b-abfca770a0ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a38cc5d-bd6b-415c-9ed5-de3054d732ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x06, script generated"
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c407417d-1b6f-4e51-975e-fdfbd9910d22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.778 -7.112)
+		(end -1.27 -7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5fdb1523-ab13-4d5c-806a-442af1164a40")
+	)
+	(fp_line
+		(start -1.778 2.54)
+		(end -1.778 -7.112)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "0cb2c5a2-81b6-4a6b-a938-8d28f18bd4a6")
+	)
+	(fp_line
+		(start -1.27 -7.62)
+		(end 1.778 -7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bc9d61d2-25d4-43d8-9ce8-e71ba5cbfeab")
+	)
+	(fp_line
+		(start -1.27 -7.62)
+		(end 10.414 -7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "66800542-3ea8-423c-835d-c58809f9ef72")
+	)
+	(fp_line
+		(start 1.778 -7.62)
+		(end 1.778 2.54)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "313ec7be-65ca-43cb-8b39-20d8960d7a03")
+	)
+	(fp_line
+		(start 1.778 2.54)
+		(end -1.778 2.54)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "06ed1212-541a-451c-a8e0-9040eeb6a1d6")
+	)
+	(fp_line
+		(start 10.414 -7.62)
+		(end 10.414 7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a64e1a4c-6f2d-407e-bece-7c830ec87272")
+	)
+	(fp_line
+		(start 10.414 7.62)
+		(end -1.27 7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7adc497b-a698-4ac1-8e8d-0964f188c788")
+	)
+	(fp_circle
+		(center 7.874 -5.08)
+		(end 9.144 -6.096)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "babc2424-8767-45ba-a10e-a763898ac649")
+	)
+	(fp_circle
+		(center 7.874 5.08)
+		(end 9.144 4.064)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "59324b27-8f5b-4a1b-8d2b-0d098ba6fdcc")
+	)
+	(fp_rect
+		(start -1.27 -7.62)
+		(end 10.414 7.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e7497782-9347-465a-9501-0412a59bd5c5")
+	)
+	(fp_line
+		(start -1.778 7.62)
+		(end -1.778 -7.112)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d9516f68-7af7-4f4c-92da-128f934987bf")
+	)
+	(fp_line
+		(start -1.27 -7.62)
+		(end -1.778 -7.112)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9d0fad14-becd-42d0-b279-d42127c907c5")
+	)
+	(fp_line
+		(start -1.27 -7.62)
+		(end 10.414 -7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1f515ef9-07cf-4ca9-90b1-afce7a3a0424")
+	)
+	(fp_line
+		(start 10.414 -7.62)
+		(end 10.414 7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "efbd9f6a-97e1-40bb-89b7-46f095ac1103")
+	)
+	(fp_line
+		(start 10.414 7.62)
+		(end -1.778 7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0d25028e-6381-4a13-8d63-7e8243ab7169")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.874 -0.254 -90)
+		(layer "F.Fab")
+		(uuid "3d500a71-611c-4d2a-a43c-aa8747ac4733")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 -6.35)
+		(size 3 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "4dd6dca2-11ea-49dc-bf12-c1f3163e73b5")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -3.81)
+		(size 3 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "ec6d184f-3aad-4a7d-95ca-eca3067a34a6")
+	)
+	(pad "3" thru_hole oval
+		(at 0 -1.27)
+		(size 3 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "f8eab8d9-d226-4d1e-8f1f-896be54309c6")
+	)
+	(pad "4" thru_hole oval
+		(at 0 1.27)
+		(size 3 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "b10fa545-288e-4a8b-8609-c15fe4dd0cc7")
+	)
+	(pad "5" thru_hole oval
+		(at 0 3.81)
+		(size 3 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "932f8e5e-e837-4734-9155-de0b3c47e2ee")
+	)
+	(pad "6" thru_hole oval
+		(at 0 6.35)
+		(size 3 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "c2447462-4c51-417a-9649-dc3ae8014bec")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
