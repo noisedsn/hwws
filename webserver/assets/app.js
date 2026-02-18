@@ -587,25 +587,6 @@ $('#units_t').on('change', function() {
   fullRender();
 });
 
-/*
-$('#units_t').on('change', function() {
-  unit_t = $(this).find('option:selected').val();
-  setCookie('unit_t', unit_t, 365);
-  fullRender();
-});
-
-$('#units_p').on('change', function() {
-  unit_p = $(this).find('option:selected').val();
-  setCookie('unit_p', unit_p, 365);
-  fullRender();
-});
-
-$('#units_a').on('change', function() {
-  unit_a = $(this).find('option:selected').val();
-  setCookie('unit_a', unit_a, 365);
-  fullRender();
-});
-*/
 
 // Switch axes
 document.getElementById("conditions_chart").onclick = function(evt) {

@@ -9,21 +9,7 @@ include 'header.php';
         <select class="inline" id="units_t">
           <option value="C"><?= t('t.unit.C') ?></option>
           <option value="F"><?= t('t.unit.F') ?></option>
-          <!--
-          <option value="K"><?= t('t.unit.K') ?></option>
-          -->
         </select>
-        <!--
-        <select class="inline" id="units_p">
-          <option value="mb"><?= t('p.unit.mb') ?></option>
-          <option value="inHg"><?= t('p.unit.inHg') ?></option>
-          <option value="mmHg"><?= t('p.unit.mmHg') ?></option>
-        </select>
-        <select class="inline" id="units_a">
-          <option value="m"><?= t('a.unit.m') ?></option>
-          <option value="ft"><?= t('a.unit.ft') ?></option>
-        </select>
-        -->
         <select class="inline" id="locale">
         </select>
       </div>
