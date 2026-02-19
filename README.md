@@ -39,9 +39,9 @@ Next, add a sensor. Station elevation (in meters) is required to recalculate loc
 
 [![Schematic](.README_img/schematic_thumb.png)](.README_img/schematic.pdf)
 [![PCB](.README_img/pcb_thumb.png)](.README_img/pcb.png)
-[![Prototyped PCB](.README_img/proto_1_thumb.png)](.README_img/proto_1.png)
-[![Prototyped PCB](.README_img/proto_2_thumb.png)](.README_img/proto_2.png)
-[![Prototyped PCB](.README_img/proto_3_thumb.png)](.README_img/proto_3.png)
+[![Prototyped PCB](.README_img/proto_1_thumb.png)](.README_img/proto_1.jpg)
+[![Prototyped PCB](.README_img/proto_2_thumb.png)](.README_img/proto_2.jpg)
+[![Prototyped PCB](.README_img/proto_3_thumb.png)](.README_img/proto_3.jpg)
 
 PCB designs are single-sided, made in KiCad and optimized for DIY etching at home (but can be manufactured as well). The photo shows my prototyping board, etched from a laser-printed page using citric acid + hydrogen peroxide recipe.
 

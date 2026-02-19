@@ -1,8 +1,6 @@
 <?php
-define('SESSION_LIFETIME', 7*24*60*60);
-ini_set('session.gc_maxlifetime', SESSION_LIFETIME);
-session_set_cookie_params(SESSION_LIFETIME);
-session_start();
+
+require 'session.php';
 
 include 'template/helpers.php';
 $title = t('setup.title');

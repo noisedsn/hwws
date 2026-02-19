@@ -1,5 +1,6 @@
 <?php
-session_start();
+
+require 'session.php';
 
 $_GET = filter_input_array(INPUT_GET, FILTER_SANITIZE_STRING);
 
