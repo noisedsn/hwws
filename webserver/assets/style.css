@@ -140,10 +140,6 @@ body {
   margin-top: 1.6em;
   overflow: hidden;
   resize: both;
-  direction: rtl;
-  & * {
-    direction: rtl;
-  }
 }
 
 

@@ -489,7 +489,7 @@ function render(data) {
   $('link[rel="icon"]').attr('href', 'assets/favicon/?t='+parseFloat(data.t_converted[0]).toFixed(0));
 
 
-	$('#temperature').attr("title", '');
+  $('#temperature').attr("title", '');
   $('#temperature').removeClass();
 
   if (data.charge <= 20 && data.charge > 0) {     // if 0 - assume sensor without battery

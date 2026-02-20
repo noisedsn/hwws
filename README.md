@@ -1,6 +1,6 @@
 # HWWS
 
-![HWWS](.README_img/presentation.png)
+[![HWWS](.README_img/presentation.png)](.README_img/screenshots.png)
 
 A humble weather station project created few years ago just because I wanted to play in some different fields, from hardware design and programming in few different languages to UI-UX and graphics design.
 
