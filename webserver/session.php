@@ -17,4 +17,4 @@ session_set_cookie_params([
 ]);
 
 session_start();
-
+setcookie(session_name(), session_id(), time() + $lifetime, ini_get('session.cookie_path'), ini_get('session.cookie_domain'), ini_get('session.cookie_secure'), ini_get('session.cookie_httponly'));
