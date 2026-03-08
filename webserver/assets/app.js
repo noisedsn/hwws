@@ -57,7 +57,8 @@ function configChart() {
   Chart.defaults.scale.type = 'linear';
   Chart.defaults.scale.gridLines.color = 'rgba(0, 0, 0, 0.1)';
   Chart.defaults.scale.ticks.mirror = true;
-  Chart.defaults.scale.ticks.padding = -10;
+  Chart.defaults.scale.ticks.padding = -15;
+  Chart.defaults.scale.gridLines.tickMarkLength = 0;
 
   if (document.documentElement.clientWidth < 767) {
     Chart.defaults.scale.gridLines.drawBorder = false;
@@ -173,7 +174,7 @@ function configChart() {
             ticks: {
               maxRotation: 0,
               minRotation: 0,
-              padding: 0,
+              padding: 10,
               major: {
                 enabled: true,
               },
@@ -182,9 +183,6 @@ function configChart() {
               display: true,
               text: 'Date'
             },
-            gridLines: {
-              display: true,
-            }
           }
         ],
 
