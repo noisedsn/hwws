@@ -1,4 +1,4 @@
-var setCookie = function(name, value, expiry_days, prefix='yams_') {
+var setCookie = function(name, value, expiry_days, prefix='ws_') {
 	var cookie_name = prefix + name;
 	var d = new Date();
 	d.setTime(d.getTime() + (expiry_days*24*60*60*1000));
@@ -7,7 +7,7 @@ var setCookie = function(name, value, expiry_days, prefix='yams_') {
 	return getCookie(cookie_name);
 };
 
-var getCookie = function(name, prefix='yams_') {
+var getCookie = function(name, prefix='ws_') {
 	var cookie_name = prefix + name + "=";
 	var decodedCookie = decodeURIComponent(document.cookie);
 	var ca = decodedCookie.split(';');

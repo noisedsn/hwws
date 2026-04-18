@@ -27,8 +27,8 @@ function loadTranslations(string $lang = 'en-US'): array
 {
     static $translations = [];
 
-    if (!empty($_COOKIE['yams_lang']))
-        $lang = htmlspecialchars($_COOKIE['yams_lang']);
+    if (!empty($_COOKIE['ws_lang']))
+        $lang = htmlspecialchars($_COOKIE['ws_lang']);
     
     if (!isset($translations[$lang])) {
         $translations[$lang] = include __DIR__ . "/../locales/$lang.php";
