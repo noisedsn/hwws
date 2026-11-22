@@ -7,15 +7,15 @@ $samesite = 'lax';
 
 ini_set('session.gc_maxlifetime', $lifetime);
 
-session_set_cookie_params([
-    'lifetime' => $lifetime,
+$cookie_options = [
+    'expires' => time() + $lifetime, 
     'path' => '/',
     'domain' => $_SERVER['HTTP_HOST'],
     'secure' => $secure,
     'httponly' => $httponly,
     'samesite' => $samesite
-]);
+];
 
 session_name('WSSESSID');
 session_start();
-setcookie(session_name(), session_id(), time() + $lifetime, ini_get('session.cookie_path'), ini_get('session.cookie_domain'), ini_get('session.cookie_secure'), ini_get('session.cookie_httponly'));
+setcookie(session_name(), session_id(), $cookie_options);
